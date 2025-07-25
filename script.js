@@ -17,7 +17,7 @@ const aiExperts = [
         social: { // 社交媒体链接
             twitter: "https://twitter.com/kevinweil",
             linkedin: "https://linkedin.com/in/kevinweil",
-            youtube: "https://youtube.com/@kevinweil"
+            youtube: "https://www.youtube.com/results?search_query=Kevin+Weil+OpenAI+CPO"
         }
     },
 
@@ -35,7 +35,7 @@ const aiExperts = [
         social: {
             twitter: "https://twitter.com/joshwoodward",
             linkedin: "https://linkedin.com/in/joshwoodward",
-            youtube: "https://youtube.com/@joshwoodward"
+            youtube: "https://www.youtube.com/results?search_query=Josh+Woodward+Google+Labs+NotebookLM"
         }
     },
     {
@@ -52,7 +52,7 @@ const aiExperts = [
         social: {
             twitter: "https://twitter.com/sundarpichai",
             linkedin: "https://linkedin.com/in/sundarpichai",
-            youtube: "https://youtube.com/@GoogleAI"
+            youtube: "https://www.youtube.com/results?search_query=Sundar+Pichai+Google+CEO+AI"
         }
     },
     {
@@ -68,8 +68,8 @@ const aiExperts = [
         keywords: ["AI safety", "AI alignment", "constitutional AI", "Anthropic", "AI安全", "AI对齐", "宪法AI"],
         social: {
             twitter: "https://twitter.com/amandaaskell",
-            linkedin: "https://linkedin.com/in/amandaaskell",
-            youtube: "https://youtube.com/@amandaaskell"
+            linkedin: "https://linkedin.com/in/amanda-askell",
+            youtube: "https://www.youtube.com/results?search_query=Amanda+Askell+Anthropic+Claude"
         }
     },
     {
@@ -103,7 +103,7 @@ const aiExperts = [
         social: {
             twitter: "https://twitter.com/elonmusk",
             linkedin: "https://linkedin.com/in/elonmusk",
-            youtube: "https://youtube.com/@elonmusk"
+            youtube: "https://www.youtube.com/results?search_query=Elon+Musk+xAI+Tesla+AI"
         }
     },
     {
@@ -120,7 +120,7 @@ const aiExperts = [
         social: {
             twitter: "https://twitter.com/sama",
             linkedin: "https://linkedin.com/in/samaltman",
-            youtube: "https://youtube.com/@samaltman"
+            youtube: "https://www.youtube.com/results?search_query=Sam+Altman+OpenAI+CEO"
         }
     },
     {
@@ -137,7 +137,7 @@ const aiExperts = [
         social: {
             twitter: "https://twitter.com/demishassabis",
             linkedin: "https://linkedin.com/in/demishassabis",
-            youtube: "https://youtube.com/@deepmind"
+            youtube: "https://www.youtube.com/results?search_query=Demis+Hassabis+DeepMind+Google"
         }
     }
 ];
