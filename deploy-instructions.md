@@ -3,7 +3,7 @@
 ## 方法1：GitHub Pages（推荐）
 
 ### 手动上传文件方式：
-1. 访问您的GitHub仓库：https://github.com/HaoWang21/ai-expert-mosaic
+1. 访问您的GitHub仓库：https://github.com/YeFanEvan/ai-expert-mosaic
 2. 点击 "uploading an existing file" 或 "Add file" > "Upload files"
 3. 将以下文件拖拽到页面中：
    - `index.html`
@@ -22,7 +22,7 @@
 5. 点击 **Save**
 6. 等待几分钟，网站将在以下地址可用：
    ```
-   https://haowang21.github.io/ai-expert-mosaic/
+   https://yefanevan.github.io/ai-expert-mosaic/
    ```
 
 ## 方法2：Netlify（最快）
