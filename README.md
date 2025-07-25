@@ -26,7 +26,7 @@ The landing page showcases 8 prominent figures in AI:
 ### 🚀 Interactive Elements
 - **Smooth scrolling navigation** with fixed header
 - **Hover effects** on expert cards with subtle animations
-- **Social media integration** with clickable icons for X, LinkedIn, and YouTube
+- **Social media integration** with clickable icons for X (Twitter) and YouTube
 - **Category filtering** - Filter experts by company/organization (Google, OpenAI, Anthropic, etc.)
 - **Search functionality** - Search experts by name, title, or keywords
 - **Bilingual support** - Toggle between English and Chinese
@@ -83,7 +83,6 @@ Edit the `aiExperts` array in `script.js`:
     avatar: "EN", // Initials for avatar
     social: {
         twitter: "https://twitter.com/username",
-        linkedin: "https://linkedin.com/in/username",
         youtube: "https://youtube.com/@username"
     }
 }

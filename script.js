@@ -16,7 +16,6 @@ const aiExperts = [
         keywords: ["social platforms", "product development", "data science", "AI ventures", "社交平台", "产品开发", "数据科学", "AI创业"], // 关键词（支持中英文）
         social: { // 社交媒体链接
             twitter: "https://twitter.com/kevinweil",
-            linkedin: "https://linkedin.com/in/kevinweil",
             youtube: "https://www.youtube.com/results?search_query=Kevin+Weil+OpenAI+CPO"
         }
     },
@@ -34,7 +33,6 @@ const aiExperts = [
         keywords: ["NotebookLM", "knowledge management", "AI-assisted learning", "research tools", "知识管理", "AI辅助学习", "研究工具"],
         social: {
             twitter: "https://twitter.com/joshwoodward",
-            linkedin: "https://linkedin.com/in/joshwoodward",
             youtube: "https://www.youtube.com/results?search_query=Josh+Woodward+Google+Labs+NotebookLM"
         }
     },
@@ -51,7 +49,6 @@ const aiExperts = [
         keywords: ["Google", "Gemini", "Bard", "multimodal AI", "advanced reasoning", "Google DeepMind", "AI转型", "多模态AI", "高级推理"],
         social: {
             twitter: "https://twitter.com/sundarpichai",
-            linkedin: "https://linkedin.com/in/sundarpichai",
             youtube: "https://www.youtube.com/results?search_query=Sundar+Pichai+Google+CEO+AI"
         }
     },
@@ -68,7 +65,6 @@ const aiExperts = [
         keywords: ["AI safety", "AI alignment", "constitutional AI", "Anthropic", "AI安全", "AI对齐", "宪法AI"],
         social: {
             twitter: "https://twitter.com/amandaaskell",
-            linkedin: "https://linkedin.com/in/amanda-askell",
             youtube: "https://www.youtube.com/results?search_query=Amanda+Askell+Anthropic+Claude"
         }
     },
@@ -85,7 +81,6 @@ const aiExperts = [
         keywords: ["computer vision", "neural networks", "AI education", "Tesla", "OpenAI", "计算机视觉", "神经网络", "AI教育", "特斯拉"],
         social: {
             twitter: "https://twitter.com/karpathy",
-            linkedin: "https://linkedin.com/in/andrejkarpathy",
             youtube: "https://youtube.com/@AndrejKarpathy"
         }
     },
@@ -102,7 +97,6 @@ const aiExperts = [
         keywords: ["xAI", "Tesla Autopilot", "Neuralink", "AGI", "brain-computer interfaces", "特斯拉自动驾驶", "脑机接口", "通用人工智能"],
         social: {
             twitter: "https://twitter.com/elonmusk",
-            linkedin: "https://linkedin.com/in/elonmusk",
             youtube: "https://www.youtube.com/results?search_query=Elon+Musk+xAI+Tesla+AI"
         }
     },
@@ -119,7 +113,6 @@ const aiExperts = [
         keywords: ["GPT models", "AGI", "AI governance", "OpenAI", "AI policy", "GPT模型", "通用人工智能", "AI治理", "AI政策"],
         social: {
             twitter: "https://twitter.com/sama",
-            linkedin: "https://linkedin.com/in/samaltman",
             youtube: "https://www.youtube.com/results?search_query=Sam+Altman+OpenAI+CEO"
         }
     },
@@ -136,7 +129,6 @@ const aiExperts = [
         keywords: ["DeepMind", "AlphaGo", "AlphaFold", "protein folding", "AGI research", "蛋白质折叠", "AGI研究", "人工通用智能"],
         social: {
             twitter: "https://twitter.com/demishassabis",
-            linkedin: "https://linkedin.com/in/demishassabis",
             youtube: "https://www.youtube.com/results?search_query=Demis+Hassabis+DeepMind+Google"
         }
     }
@@ -223,9 +215,6 @@ function generateExpertCards(expertsToShow = aiExperts) {
                 <div class="expert-social">
                     <a href="${expert.social.twitter}" class="social-link twitter" target="_blank" rel="noopener noreferrer" title="Twitter">
                         <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="${expert.social.linkedin}" class="social-link linkedin" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
                     </a>
                     <a href="${expert.social.youtube}" class="social-link youtube" target="_blank" rel="noopener noreferrer" title="YouTube">
                         <i class="fab fa-youtube"></i>
@@ -491,9 +480,6 @@ function openExpertModal(expert) {
     modalSocial.innerHTML = `
         <a href="${expert.social.twitter}" class="social-link twitter" target="_blank" rel="noopener noreferrer" title="Twitter">
             <i class="fab fa-twitter"></i>
-        </a>
-        <a href="${expert.social.linkedin}" class="social-link linkedin" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
         </a>
         <a href="${expert.social.youtube}" class="social-link youtube" target="_blank" rel="noopener noreferrer" title="YouTube">
             <i class="fab fa-youtube"></i>
