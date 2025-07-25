@@ -131,6 +131,54 @@ const aiExperts = [
             twitter: "https://twitter.com/demishassabis",
             youtube: "https://www.youtube.com/results?search_query=Demis+Hassabis+DeepMind+Google"
         }
+    },
+    {
+        name: "Geoffrey Hinton",
+        nameCn: "杰弗里·辛顿",
+        title: "2024 Nobel Prize Winner & AI Godfather",
+        titleCn: "2024年诺贝尔奖得主，AI教父",
+        bio: "2024 Nobel Prize in Physics winner, widely regarded as the 'Godfather of AI'. Pioneer of deep learning and neural networks, former Google researcher who left to warn about AI risks.",
+        bioCn: "2024年诺贝尔物理学奖得主，被誉为'AI教父'。深度学习和神经网络的先驱，前Google研究员，离职后致力于警告AI风险。",
+        avatar: "GH",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Geoffrey_Hinton_at_UofT_%28cropped%29.jpg/250px-Geoffrey_Hinton_at_UofT_%28cropped%29.jpg",
+        category: "researcher",
+        keywords: ["Nobel Prize", "deep learning", "neural networks", "AI safety", "Google", "诺贝尔奖", "深度学习", "神经网络", "AI安全"],
+        social: {
+            twitter: "https://twitter.com/geoffreyhinton",
+            youtube: "https://www.youtube.com/results?search_query=Geoffrey+Hinton+Nobel+Prize+AI"
+        }
+    },
+    {
+        name: "Fei-Fei Li",
+        nameCn: "李飞飞",
+        title: "World Labs CEO & Stanford Professor",
+        titleCn: "World Labs CEO，斯坦福教授",
+        bio: "Co-founder and CEO of World Labs, focusing on spatial intelligence AI. Former Director of Stanford AI Lab and Chief Scientist at Google Cloud. Pioneer in computer vision and ImageNet.",
+        bioCn: "World Labs联合创始人兼CEO，专注于空间智能AI。前斯坦福AI实验室主任和Google Cloud首席科学家。计算机视觉和ImageNet的先驱。",
+        avatar: "FL",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fei-Fei_Li_at_AI_for_Good_2017.jpg/250px-Fei-Fei_Li_at_AI_for_Good_2017.jpg",
+        category: "entrepreneur",
+        keywords: ["World Labs", "computer vision", "ImageNet", "Stanford", "spatial intelligence", "计算机视觉", "斯坦福", "空间智能"],
+        social: {
+            twitter: "https://twitter.com/drfeifei",
+            youtube: "https://www.youtube.com/results?search_query=Fei-Fei+Li+Stanford+AI"
+        }
+    },
+    {
+        name: "Andrew Ng",
+        nameCn: "吴恩达",
+        title: "AI Fund Partner & DeepLearning.AI Founder",
+        titleCn: "AI Fund合伙人，DeepLearning.AI创始人",
+        bio: "Managing General Partner at AI Fund, Founder of DeepLearning.AI and Coursera. Former Chief Scientist at Baidu and Director of Stanford AI Lab. Amazon Board Director since 2024.",
+        bioCn: "AI Fund管理合伙人，DeepLearning.AI和Coursera创始人。前百度首席科学家和斯坦福AI实验室主任。2024年起担任亚马逊董事。",
+        avatar: "AN",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Andrew_Ng_2017.jpg/250px-Andrew_Ng_2017.jpg",
+        category: "entrepreneur",
+        keywords: ["DeepLearning.AI", "Coursera", "AI Fund", "machine learning", "Amazon", "深度学习", "机器学习", "在线教育"],
+        social: {
+            twitter: "https://twitter.com/AndrewYNg",
+            youtube: "https://www.youtube.com/results?search_query=Andrew+Ng+machine+learning"
+        }
     }
 ];
 

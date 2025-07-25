@@ -1,6 +1,6 @@
 # AIMosaic - Minds Connected
 
-A sleek, Apple-style landing page showcasing 8 leading AI experts and visionaries who are shaping the future of artificial intelligence.
+A sleek, Apple-style landing page showcasing 11 leading AI experts and visionaries who are shaping the future of artificial intelligence.
 
 ## Features
 
@@ -12,7 +12,7 @@ A sleek, Apple-style landing page showcasing 8 leading AI experts and visionarie
 - **Responsive design** that works perfectly across all devices
 
 ### 👥 Featured AI Experts
-The landing page showcases 8 prominent figures in AI:
+The landing page showcases 11 prominent figures in AI:
 
 1. **Kevin Weil** - Former Twitter VP & AI Entrepreneur
 2. **Josh Woodward** - Ex-NotebookLM Lead
@@ -22,6 +22,9 @@ The landing page showcases 8 prominent figures in AI:
 6. **Elon Musk** - xAI Founder & CEO
 7. **Sam Altman** - OpenAI CEO
 8. **Demis Hassabis** - Google DeepMind CEO
+9. **Geoffrey Hinton** - 2024 Nobel Prize Winner & AI Godfather
+10. **Fei-Fei Li** - World Labs CEO & Stanford Professor
+11. **Andrew Ng** - AI Fund Partner & DeepLearning.AI Founder
 
 ### 🚀 Interactive Elements
 - **Smooth scrolling navigation** with fixed header
