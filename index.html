@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMosaic - Minds Connected</title>
+    <link rel="stylesheet" href="styles.css?v=2024072402">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 加载覆盖层 -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">正在加载 AIMosaic...</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>AIMosaic</h1>
+                </div>
+                <div class="nav-links">
+                    <a href="#experts" class="nav-link">Experts</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">AIMosaic</h1>
+                <p class="hero-subtitle">Minds Connected</p>
+                <p class="hero-description">
+                    Discover the brilliant minds shaping the future of artificial intelligence. 
+                    Connect with leading experts, researchers, and visionaries who are transforming our world.
+                </p>
+                <a href="#experts" class="cta-button">
+                    Explore Experts
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experts Section -->
+    <section id="experts" class="experts">
+        <div class="experts-container">
+            <div class="section-header">
+                <h2 class="section-title">顶尖AI专家</h2>
+                <p class="section-subtitle">遇见推动AI创新的远见者们</p>
+
+                <!-- Search and Filter Controls -->
+                <div class="search-controls">
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchInput" placeholder="搜索专家姓名、公司或专业领域..." />
+                        <button id="clearSearch" class="clear-search" style="display: none;">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">全部</button>
+                        <button class="filter-btn" data-filter="openai">OpenAI</button>
+                        <button class="filter-btn" data-filter="google">Google</button>
+                        <button class="filter-btn" data-filter="anthropic">Anthropic</button>
+                        <button class="filter-btn" data-filter="entrepreneur">企业家</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experts-grid">
+                <!-- Expert cards will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2 class="about-title">关于 AIMosaic</h2>
+                <p class="about-description">
+                    AIMosaic汇聚了人工智能领域最具影响力的声音，
+                    创建了一个涵盖专业知识、创新和思想领导力的综合网络。
+                    我们精心策划的专家集合展示了AI先驱者们的多元化视角和突破性工作，
+                    他们正在塑造着今天的明日科技。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">保持联系</h2>
+                <p class="newsletter-description">
+                    获取AI创新、专家见解和突破性发展的最新动态，
+                    直接发送到您的邮箱。
+                </p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="form-group">
+                        <input
+                            type="email"
+                            id="emailInput"
+                            placeholder="请输入您的邮箱地址"
+                            required
+                            class="email-input"
+                        >
+                        <button type="submit" class="subscribe-btn">
+                            <span class="btn-text">订阅</span>
+                            <i class="fas fa-arrow-right btn-icon"></i>
+                            <div class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>AIMosaic</h3>
+                    <p>Minds Connected</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="#" class="footer-link">Terms</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AIMosaic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Expert Detail Modal -->
+    <div class="modal-overlay" id="expertModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="modal-avatar">
+                    <img id="modalImage" src="" alt="">
+                    <div class="modal-avatar-fallback" id="modalAvatarFallback"></div>
+                </div>
+                <h2 class="modal-name" id="modalName"></h2>
+                <p class="modal-title" id="modalTitle"></p>
+                <div class="modal-bio" id="modalBio"></div>
+                <div class="modal-keywords" id="modalKeywords"></div>
+                <div class="modal-social" id="modalSocial"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=2024072411"></script>
+</body>
+</html>
