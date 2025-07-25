@@ -29,7 +29,7 @@ const aiExperts = [
         bio: "Former lead of Google's NotebookLM, pioneering AI-powered research and note-taking tools. Expert in knowledge management and AI-assisted learning.",
         bioCn: "Google NotebookLM前负责人，开创性地开发AI驱动的研究和笔记工具。知识管理和AI辅助学习专家。",
         avatar: "JW",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face&auto=format&q=80",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face&auto=format&q=80",
         category: "google",
         keywords: ["NotebookLM", "knowledge management", "AI-assisted learning", "research tools", "知识管理", "AI辅助学习", "研究工具"],
         social: {
@@ -63,7 +63,7 @@ const aiExperts = [
         bio: "Research scientist at Anthropic focusing on AI safety and alignment. Leading work on constitutional AI and responsible AI development practices.",
         bioCn: "Anthropic研究科学家，专注于AI安全和对齐。领导宪法AI和负责任AI发展实践的工作。",
         avatar: "AA",
-        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face&auto=format&q=80",
+        image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face&auto=format&q=80",
         category: "anthropic",
         keywords: ["AI safety", "AI alignment", "constitutional AI", "Anthropic", "AI安全", "AI对齐", "宪法AI"],
         social: {

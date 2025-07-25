@@ -1,6 +1,6 @@
 # AIMosaic - Minds Connected
 
-A sleek, Apple-style landing page showcasing 11 leading AI experts and visionaries who are shaping the future of artificial intelligence.
+A sleek, Apple-style landing page showcasing 8 leading AI experts and visionaries who are shaping the future of artificial intelligence.
 
 ## Features
 
@@ -12,25 +12,24 @@ A sleek, Apple-style landing page showcasing 11 leading AI experts and visionari
 - **Responsive design** that works perfectly across all devices
 
 ### 👥 Featured AI Experts
-The landing page showcases 11 prominent figures in AI:
+The landing page showcases 8 prominent figures in AI:
 
-1. **Kevin Wei** - AI Researcher & Entrepreneur
-2. **Christopher Petregal** - OpenAI Research Scientist
-3. **Nan Yu** - Granola Co-founder
-4. **Raiza Martin** - Linear AI Lead
-5. **Josh Woodward** - Ex-NotebookLM Lead
-6. **Google Gemini Lead** - Google DeepMind
-7. **Amanda Askell** - Anthropic Research Scientist
-8. **Andrej Karpathy** - AI Researcher & Educator
-9. **Elon Musk** - xAI Founder & CEO
-10. **Sam Altman** - OpenAI CEO
-11. **Demis Hassabis** - Google DeepMind CEO
+1. **Kevin Weil** - Former Twitter VP & AI Entrepreneur
+2. **Josh Woodward** - Ex-NotebookLM Lead
+3. **Sundar Pichai** - Google CEO & AI Visionary
+4. **Amanda Askell** - Anthropic Research Scientist
+5. **Andrej Karpathy** - AI Researcher & Educator
+6. **Elon Musk** - xAI Founder & CEO
+7. **Sam Altman** - OpenAI CEO
+8. **Demis Hassabis** - Google DeepMind CEO
 
 ### 🚀 Interactive Elements
 - **Smooth scrolling navigation** with fixed header
 - **Hover effects** on expert cards with subtle animations
 - **Social media integration** with clickable icons for X, LinkedIn, and YouTube
-- **Parallax scrolling** effect in the hero section
+- **Category filtering** - Filter experts by company/organization (Google, OpenAI, Anthropic, etc.)
+- **Search functionality** - Search experts by name, title, or keywords
+- **Bilingual support** - Toggle between English and Chinese
 - **Intersection Observer animations** for cards appearing on scroll
 - **Keyboard navigation support** for accessibility
 
